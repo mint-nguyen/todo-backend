@@ -21,6 +21,8 @@ import { TodoItemModule } from './todo-item/todo-item.module';
     GraphQLModule.forRoot({
       // set to true to automatically generate schema
       autoSchemaFile: true,
+      playground: true,
+      introspection: true,
     }),
     TodoItemModule,
   ],
